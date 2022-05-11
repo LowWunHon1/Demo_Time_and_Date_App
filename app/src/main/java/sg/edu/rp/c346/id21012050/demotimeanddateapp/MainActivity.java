@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 dp.updateDate(2020, 0, 1);
-                tp.setCurrentHour(12);
+                tp.setCurrentHour(00);
                 tp.setCurrentMinute(00);
             }
         });
